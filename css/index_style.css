@@ -1,0 +1,254 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.nav-container
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed;
+    left: 66px;
+}
+.nav-child li
+{
+    display: inline-block;
+    color: white;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+ul
+{
+    text-align: right;
+}
+.nav-child
+{
+    color: yellow;
+    padding: 2.5rem;
+    width: 50%;
+    font-family: 'Caveat', cursive;
+
+}
+.header-container
+{
+    width: 100%;
+    height: 700px;
+    background-image: url('images/header-bg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.header-child
+{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    transition: 2s transform;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+.header-child h1
+{
+    font-size: 5rem;
+}
+.header-child h3
+{
+    font-size: 2.2rem;
+    font-style: italic;
+}
+.defenation
+{
+    width: 100%;
+}
+.defenation-child
+{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.defenation-child h2
+{
+    margin-bottom:2rem ;
+}
+.big
+{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+.parent
+{
+    width: 30%;
+    position: relative;
+}
+.child
+{
+    width: 100%;
+}
+.amr
+{
+    width: 100%;
+}
+.child2
+{
+    width: 100%;
+    background-color: rgb(56, 5, 56);
+    position: absolute;
+    bottom: 253px;
+    text-align: center;
+    transition: 1s bottom, 1s opacity;
+    opacity: 0;
+
+}
+.child3
+{
+    margin: auto;
+    width: 100%;
+    background-color:white;
+    position: absolute;
+    bottom: 10px;
+    padding: 1rem;
+    text-align: center;
+    border: solid blueviolet 1px;
+    transition: 0.5s bottom , 0.5s opacity;
+
+}
+.parent:hover .child2
+{
+    bottom: 40px;
+    opacity: 1;
+}
+.parent:hover .child3
+{
+    bottom: -100px;
+    opacity: 0;
+}
+.section2
+{
+
+    margin: 1rem;
+    width: 25%;
+    background-color: burlywood;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.section-child2
+{
+    width: 100%;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+.section-img
+{
+    width: 100%;
+    transition: 1s transform;
+}
+.section-child3
+{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    border: solid 2px white;
+    border-radius: 10px;
+    color: white;
+}
+.big-section
+{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 0.5rem;
+
+}
+.section2:hover .section-child3
+{
+    opacity: 0.6;
+}
+.section2:hover .section-img
+{
+    transform: scale(1.1,1.1);
+}
+.header-container:hover .header-child
+{
+    transform: scale(1.1,1.1);
+}
+.parent3
+{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.child4
+{
+    text-align: center;
+    margin: 1rem;
+    width: 27%;
+    position: relative;
+    background-color: white;
+}
+.img
+{
+    width: 100%;
+    transition: 1s opacity;
+
+}
+i
+{
+    color:white;
+    position: absolute;
+    right: 150px;
+    top: 90px;
+    font-size: 70px;
+    opacity: 0;
+    transition: 1s opacity, 1s transform;
+
+
+}
+.child4:hover img
+{
+    opacity: 0.2;
+}
+.child4:hover i
+{
+    opacity: 1;
+    transform: scale(1.1,1.1);
+}
+.child4:hover
+{
+    background-color: rgba(248, 248, 0, 0.87);
+}
+.last_parent
+{
+    width: 100%;
+    background-color:#212529;
+    background-image: url('images/map-image.png');
+    background-size:cover ;
+}
+.child5
+{
+    padding: 2rem;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.aaa
+{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    margin: auto;
+}
