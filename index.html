@@ -12,29 +12,42 @@
 
     </head>
     <body>
-        <nav class="nav-container">
-            <div class="nav-child">
-                <h3>start bootstrap</h3>
-            </div>
-            <div class="nav-child">
-                <ul>
-                    <li>Services</li>
-                    <li>Portfolio</li>
-                    <li>About</li>
-                    <li>Team</li>
-                    <li>Contact</li>
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+            <a class="navbar-brand text-warning font-g" href="#">Bootstrap</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 px-3 ">
+                    <li class="nav-item active">
+                        <a id="home" class="nav-link " href="#"><h4 class="words">Home</h4> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a id="about" class="nav-link" href="#"><h4 class="words">About</h4> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a id="category" class="nav-link " href="#"><h4 class="words">Categories</h4> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a id="team" class="nav-link" href="#"><h4 class="words">Team</h4> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a id="contact" class="nav-link" href="#"><h4 class="words">Contact</h4> <span class="sr-only">(current)</span></a>
+                    </li>
                 </ul>
             </div>
         </nav>
-        <div class="header-container">
+
+        <div id="section1" class="header-container">
             <div class="header-child">
-                <h3>WELCOME TO OUR STUDIO!</h3>
-                <h1>IT'S A NICE TO MEET YOU</h1>
-                <button type="button" class="btn btn-warning btn-lg p-3 m-5 text-light border-dark font-weight-bolder">TELL ME MORE</button>
+                <h5>WELCOME TO OUR STUDIO!</h5>
+                <h2>IT'S A NICE TO MEET YOU</h2>
+                <button type="button" class="btn btn-warning btn-md p-3 m-5 text-light border-dark font-weight-bolder">TELL ME MORE</button>
             </div>
         </div>
 
-        <div class="defenation">
+        <div id="section2" class="defenation">
             <div class="defenation-child">
                 <h2>
                     Experience Advisors
@@ -96,7 +109,7 @@
         </div>
 
     </div>
-    <div class="defenation">
+    <div id="section3" class="defenation">
         <div class="defenation-child">
             <h2>
                 Top Categories
@@ -207,10 +220,10 @@
         </div>
     </div>
 
-    <div class="parent3">
+    <div id="section4" class="parent3">
         <div class="child4">
             <img class="img" src="css/images/01-full.jpg" alt="">
-            <i class="fas fa-plus"></i>
+            <i class="model fas fa-plus"></i>
             <div style="background-color: white; padding: 1rem;">
                 <h4>Threads</h4>
                 <h5 style="font-style: italic;">Illustration</h5>
@@ -219,7 +232,7 @@
 
         <div class="child4">
             <img class="img" src="css/images/02-full.jpg" alt="">
-            <i class="fas fa-plus"></i>
+            <i class="model fas fa-plus"></i>
             <div style="background-color: white; padding: 1rem;">
                 <h4>Threads</h4>
                 <h5 style="font-style: italic;">Illustration</h5>
@@ -228,7 +241,7 @@
 
         <div class="child4">
             <img class="img" src="css/images/03-full.jpg" alt="">
-            <i class="fas fa-plus"></i>
+            <i class="model fas fa-plus"></i>
             <div style="background-color: white; padding: 1rem;">
                 <h4>Threads</h4>
                 <h5 style="font-style: italic;">Illustration</h5>
@@ -240,7 +253,7 @@
     <div class="parent3">
         <div class="child4">
             <img class="img" src="css/images/04-thumbnail.jpg" alt="">
-            <i class="fas fa-plus"></i>
+            <i class="model fas fa-plus"></i>
             <div style="background-color: white; padding: 1rem;">
                 <h4>Threads</h4>
                 <h5 style="font-style: italic;">Illustration</h5>
@@ -249,7 +262,7 @@
 
         <div class="child4">
             <img class="img" src="css/images/05-full.jpg" alt="">
-            <i class="fas fa-plus"></i>
+            <i class="model fas fa-plus"></i>
             <div style="background-color: white; padding: 1rem;">
                 <h4>Threads</h4>
                 <h5 style="font-style: italic;">Illustration</h5>
@@ -258,7 +271,7 @@
 
         <div class="child4">
             <img class="img" src="css/images/06-thumbnail.jpg" alt="">
-            <i class="fas fa-plus"></i>
+            <i class="model fas fa-plus"></i>
             <div style="background-color: white; padding: 1rem;">
                 <h4>Threads</h4>
                 <h5 style="font-style: italic;">Illustration</h5>
@@ -266,7 +279,7 @@
 
         </div>
     </div>
-    <div class="last_parent">
+    <div id="section5" class="last_parent">
         <div class="child5">
             <h1>CONTACT US</h1>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -289,11 +302,18 @@
             <button class="btn btn-lg btn-warning text-light">send message</button>
         </div>
         <p style="text-align: center; color:white; padding: 0.5rem;">Copyright Â© Your Website 2019</p>
-    </div>
+        
+        </div>
 
-    <script src="js/jquery-3.4.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>    
-    <script src="js/main.js"></script>
+        <div class="arrow">
+            <i class="icon fa fa-arrow-up text-white" aria-hidden="true"></i>
+        </div>
+
+
+
+        <script src="js/jquery-3.5.0.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>    
+        <script src="js/main.js"></script>
     </body>
 </html>
